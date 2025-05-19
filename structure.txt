@@ -1,0 +1,19 @@
+fullstack-portfolio/
+│
+├── README.md
+├── projects/
+│   ├── project1/
+│   │   ├── client/          # Frontend code (React, Angular, etc.)
+│   │   ├── server/          # Backend code (Node.js, Express, etc.)
+│   │   ├── docs/            # Architecture diagrams, API docs
+│   │   ├── screenshots/     # Images/GIFs of the app
+│   │   └── README.md        # Project-specific instructions
+│   ├── project2/
+│   │   └── ...
+│   └── ...
+├── assets/
+│   ├── images/
+│   └── gifs/
+├── resume.pdf               # Optional
+├── .gitignore
+└── LICENSE
