@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="qeofoVIg1csNmUIwD_s2" name="Page-1">
-        <mxGraphModel dx="581" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="689" dy="374" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -23,31 +23,66 @@
                 <mxCell id="3" value="menuitems" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="220" y="300" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="9" target="12">
+                <mxCell id="13" value="" style="edgeStyle=none;html=1;" parent="1" source="9" target="12" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="dark and light theme" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="9" value="dark and light theme" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="590" y="180" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="12" target="14">
+                <mxCell id="15" value="" style="edgeStyle=none;html=1;" parent="1" source="12" target="14" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="15">
+                <mxCell id="18" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="15" vertex="1" connectable="0">
                     <mxGeometry x="0.1333" y="-1" relative="1" as="geometry">
                         <mxPoint x="4" y="1" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="17" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="12" target="16">
+                <mxCell id="17" value="" style="edgeStyle=none;html=1;" parent="1" source="12" target="16" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="if&lt;div&gt;system is light&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="12" value="if&lt;div&gt;system is light&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="610" y="310" width="80" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="show light theme icon" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="14" value="show light theme icon" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="430" y="320" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="show dark theme icon" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="16" value="show dark theme icon" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="590" y="480" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="19" target="20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="7 Creating&amp;nbsp; the navbar component" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="510" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="navbar" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry y="650" width="440" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="component1&lt;div&gt;(Trending)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="660" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="component2&lt;div&gt;(Top rated)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="660" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="24" target="25">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="params, title" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="26">
+                    <mxGeometry x="-0.1458" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="navbar" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="770" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="25" target="28">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="navbaritem" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="910" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="Using different hooks&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="910" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

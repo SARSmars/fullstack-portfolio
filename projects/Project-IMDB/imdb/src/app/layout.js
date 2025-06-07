@@ -2,7 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import {Providers} from "./Providers";
-
+import Navbar from "@/components/Navbar";
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
           {/* //it is server component, so it can be used in the layout */}
 
         {/* Navbar */}
-
+          <Navbar/>
 
         {/* Search box */}
         {children}
