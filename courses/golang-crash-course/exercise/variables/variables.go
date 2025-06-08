@@ -25,5 +25,18 @@ package main
 import "fmt"
 
 func main() {
+	favouriteColor := "blue" // Using short variable declaration
+	fmt.Println("Favourite Color: ", favouriteColor, "\n")
+	var birthYear, age = 1990, 33 // Using compound assignment
+	fmt.Println("Birth Year: ", birthYear, ", Age: ", age, "\n")
+	var(
+		firstInitial, lastInitial = "J", "D" // Using block assignment
+	)
+	fmt.Println("Initials: ", firstInitial, lastInitial, "\n")
+	
+	var ageInDays int // Declaring a variable without assignment
+	ageInDays = age * 365 // Assigning value by multiplying age with 365
+	fmt.Println("Age in Days: ", ageInDays, "\n")
+
 }
 
