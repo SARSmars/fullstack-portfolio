@@ -1,0 +1,1 @@
+For each route different folders are created in the pages folder of src.
